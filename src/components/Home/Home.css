@@ -52,5 +52,31 @@
 }
 .featured_video_sec{
     position: relative;
-    height: 400px;
+    height: 380px;
+}
+.main_heading{
+    margin-bottom: 40px;
+}
+.recommended_block_img{
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+.recommended_block_img img{
+    transition: ease 0.3s;
+    transform: scale(1);
+}
+.recommended_block:hover .recommended_block_img img{
+    transform: scale(1.1);
+}
+.card{
+    border: 0;
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.16) 10px 10px 30px;
+}
+.card-body{
+    padding: 15px 20px 20px;
+}
+.recommended_courses{
+    background-image: url(../../assets//images/texture.png);
+    background-size: 20px;
 }

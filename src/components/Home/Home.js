@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import about from "../../assets/images/about-img.svg";
 import logobg from "../../assets/images/technologic-logo.jpg";
+import cover from "../../assets/images/cover.png";
 import "./Home.css";
 
 export default function Home() {
@@ -11,6 +12,11 @@ export default function Home() {
         { label: "Lorem ipsum dolor", img: logobg, level: 'level1' },
         { label: "Lorem ipsum dolor", img: logobg, level: 'level2' },
         { label: "Lorem ipsum dolor", img: logobg, level: 'level3' },
+    ]
+    let recommended = [
+        { label: "Lorem ipsum dolor sit amet", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.", img: cover, type: 'HTML', link: "/" },
+        { label: "Lorem ipsum dolor sit amet", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.", img: cover, type: 'HTML', link: "/" },
+        { label: "Lorem ipsum dolor sit amet", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.", img: cover, type: 'HTML', link: "/" },
     ]
     return (
         <div className="main">
@@ -77,6 +83,34 @@ export default function Home() {
                                 </div>
                             )
                         })}
+                    </div>
+                </div>
+            </div>
+            <div className="recommended_courses common_sec secondary-bg">
+                <div className="container">
+                    <div className="main_heading text-center">
+                        <h3>Recommended courses</h3>
+                    </div>
+                    <div className="recommended_sec">
+                        <div className="row">
+                            {recommended.map((opt, index) => {
+                                return (
+                                    <div key={index} className="col-sm-4 recommended_block">
+                                        <div className="card">
+                                            <div className="recommended_block_img">
+                                                <img src={opt.img} alt="" className="img-fluid w-100" />
+                                            </div>
+                                            <div className="card-body">
+                                                <h6 className="secondary-text">{opt.type}</h6>
+                                                <h5 className="mb-2">{opt.label}</h5>
+                                                <p>{opt.desc}</p>
+                                                <NavLink to={opt.link} className="custom_btn mt-4">Read more</NavLink>
+                                            </div>
+                                        </div>
+                                    </div>
+                                )
+                            })}
+                        </div>
                     </div>
                 </div>
             </div>
