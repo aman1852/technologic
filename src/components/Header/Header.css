@@ -16,3 +16,10 @@
 .header_navbar li a:hover, .header_navbar li a.active{
     color: var(--secondary);
 }
+header{
+    box-shadow: rgba(0,0,0,0.05) 0 5px 10px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 99;
+}

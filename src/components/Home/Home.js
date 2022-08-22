@@ -15,8 +15,8 @@ export default function Home() {
     ]
     let recommended = [
         { label: "Lorem ipsum dolor sit amet", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.", img: cover, type: 'HTML', link: "/" },
-        { label: "Lorem ipsum dolor sit amet", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.", img: cover, type: 'HTML', link: "/" },
-        { label: "Lorem ipsum dolor sit amet", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.", img: cover, type: 'HTML', link: "/" },
+        { label: "Lorem ipsum dolor sit amet", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.", img: cover, type: 'CSS', link: "/" },
+        { label: "Lorem ipsum dolor sit amet", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.", img: cover, type: 'Javascript', link: "/" },
     ]
     return (
         <div className="main">
@@ -26,7 +26,8 @@ export default function Home() {
                         <div className="col-sm-6">
                             <div className="banner_content">
                                 <h1>Welcome to <span className="secondary-text">Technologic Aman</span></h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p>Technologic Aman provides quick and easy coding techniques in Hindi. I aim to teach in a simple way that is understood by everyone and helps in their projects.
+                                    At Technologic Aman, you will learn the latest frontend web techniques like HTML, CSS, jQuery, JavaScript, React, etc.</p>
                                 <div className="d-flex mt-4">
                                     <NavLink to="/courses" className="custom_btn outlined">Explore courses</NavLink>
                                     <NavLink to="/blogs" className="custom_btn ms-3">View blogs</NavLink>
@@ -47,8 +48,11 @@ export default function Home() {
                         <div className="col-sm-5">
                             <div className="about_content">
                                 <h2>Hi! My name is Aman</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p>A passionate front-end developer located in India. I'm interested in building creative things and always trying new things in my field of development and also fascinated by process of reviving the code.
+                                </p>
+                                <p>I love building Creative, Professional, and Elegant websites along with other graphic
+                                    design services. I aim to help beginners to increase their coding skills.
+                                </p>
                                 <div className="row mt-5">
                                     <div className="col">
                                         <h2 className="mb-1">10+</h2>
