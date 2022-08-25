@@ -9,7 +9,7 @@ export default function Header(){
             <div className="container">
                 <div className="header_nav">
                     <NavLink to="/">
-                        <img src={logo} alt="Technologic Aman" className="img-fluid" width={150} />
+                        {/* <img src={logo} alt="Technologic Aman" className="img-fluid" width={150} /> */}
                     </NavLink>
                     <ul className="header_navbar">
                         <li><NavLink to="/">Home</NavLink></li>

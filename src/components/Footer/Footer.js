@@ -12,12 +12,12 @@ export default function Footer() {
             <div className="container">
                 <div className="footer_top">
                     <NavLink to="/">
-                        <img src={logo} alt="" className="img-fluid" width={'150'} />
+                        {/* <img src={logo} alt="" className="img-fluid" width={'150'} /> */}
                     </NavLink>
                 </div>
                 <div className="footer_nav row">
                     <div className="col-sm-4">
-                        <p>&copy; Technologic Aman {new Date().getFullYear()}</p>
+                        {/* <p>&copy; Technologic Aman {new Date().getFullYear()}</p> */}
                     </div>
                     <div className="col-sm-4 text-center">
                         <Link to="" className="footer_social"><FontAwesomeIcon icon={faFacebookF} /></Link>

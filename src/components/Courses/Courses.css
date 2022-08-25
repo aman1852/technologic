@@ -1,5 +1,5 @@
 .course_topics{
-    max-height: 500px;
+    max-height: 450px;
     overflow: hidden;
     overflow-y: auto;
     padding: 5px 20px;
@@ -18,7 +18,6 @@
 }
 .course_topics .card .card-body label:hover,
 .course_topics .card .card-body label input:checked + span{
-    transform: scale(1.05);
     color: #000;
     font-weight: 500;
 }
